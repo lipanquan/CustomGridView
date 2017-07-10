@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cgv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.jzg.lib.cgv.view.CustomGridView
+        android:id="@+id/cgv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        cgv:all_count_line="4"
+        cgv:item_background_normal="@drawable/custom_gridview_item_normal"
+        cgv:item_background_selected="@drawable/custom_gridview_item_selected"
+        cgv:item_margin_left_or_right="5"
+        cgv:item_padding="8"
+        cgv:item_text_color="@color/Black"
+        cgv:item_text_selected_color="@color/color_custom_gridview_item_normal_498FEF"
+        cgv:item_text_size="14"
+        cgv:line_spacing="10" />
+
+</RelativeLayout>

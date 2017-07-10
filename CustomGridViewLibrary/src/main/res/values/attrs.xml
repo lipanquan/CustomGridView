@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomGridView">
+        <!-- 每行显示多少个item > 0 -->
+        <attr name="all_count_line" format="integer" />
+
+        <!-- 行间距 -->
+        <attr name="line_spacing" format="integer" />
+
+        <!-- 最多可选择多少个item > 0 -->
+        <!--<attr name="max_select_item_number" format="integer" />-->
+
+        <!-- item左右边距 -->
+        <attr name="item_margin_left_or_right" format="integer" />
+
+        <!-- item上下边距 -->
+        <!--<attr name="item_margin_top_or_bottom" format="integer" />-->
+
+        <!-- item内边距 -->
+        <attr name="item_padding" format="integer" />
+
+        <!-- item字体的大小 -->
+        <attr name="item_text_size" format="integer" />
+
+        <!-- item字体的颜色 -->
+        <attr name="item_text_color" format="color" />
+
+        <!-- item选中时的字体颜色 -->
+        <attr name="item_text_selected_color" format="color" />
+
+        <!-- item正常时的背景 -->
+        <attr name="item_background_normal" format="reference" />
+
+        <!-- item选中时的背景 -->
+        <attr name="item_background_selected" format="reference" />
+    </declare-styleable>
+</resources>
